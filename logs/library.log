@@ -1,0 +1,287 @@
+2025-04-03T16:21:27.136+08:00  INFO 28432 --- [cursor-library] [main] c.e.c.CursorLibraryApplication           : Starting CursorLibraryApplication using Java 21.0.3 with PID 28432 (C:\Users\p0310\IdeaProjects\cursor-library\target\classes started by p0310 in C:\Users\p0310\IdeaProjects\cursor-library)
+2025-04-03T16:21:27.136+08:00 DEBUG 28432 --- [cursor-library] [main] c.e.c.CursorLibraryApplication           : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-03T16:21:27.136+08:00  INFO 28432 --- [cursor-library] [main] c.e.c.CursorLibraryApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-04-03T16:21:27.792+08:00  INFO 28432 --- [cursor-library] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-03T16:21:27.850+08:00  INFO 28432 --- [cursor-library] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 3 JPA repository interfaces.
+2025-04-03T16:21:28.674+08:00  INFO 28432 --- [cursor-library] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-03T16:21:28.691+08:00  INFO 28432 --- [cursor-library] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-03T16:21:28.691+08:00  INFO 28432 --- [cursor-library] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-03T16:21:28.744+08:00  INFO 28432 --- [cursor-library] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-03T16:21:28.744+08:00  INFO 28432 --- [cursor-library] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1552 ms
+2025-04-03T16:21:28.894+08:00  INFO 28432 --- [cursor-library] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-03T16:21:28.966+08:00  INFO 28432 --- [cursor-library] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-03T16:21:29.018+08:00  INFO 28432 --- [cursor-library] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-03T16:21:29.355+08:00  INFO 28432 --- [cursor-library] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-03T16:21:29.390+08:00  INFO 28432 --- [cursor-library] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-03T16:21:29.535+08:00  INFO 28432 --- [cursor-library] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ec3a4c2
+2025-04-03T16:21:29.536+08:00  INFO 28432 --- [cursor-library] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-03T16:21:29.593+08:00  WARN 28432 --- [cursor-library] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-03T16:21:29.611+08:00  INFO 28432 --- [cursor-library] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-03T16:21:30.498+08:00  INFO 28432 --- [cursor-library] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-03T16:21:30.501+08:00  INFO 28432 --- [cursor-library] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03T16:21:30.904+08:00 DEBUG 28432 --- [cursor-library] [main] c.e.c.config.JwtRequestFilter            : Filter 'jwtRequestFilter' configured for use
+2025-04-03T16:21:30.964+08:00  INFO 28432 --- [cursor-library] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-04-03T16:21:31.196+08:00  WARN 28432 --- [cursor-library] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-03T16:21:32.208+08:00  INFO 28432 --- [cursor-library] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-03T16:21:32.214+08:00  INFO 28432 --- [cursor-library] [main] c.e.c.CursorLibraryApplication           : Started CursorLibraryApplication in 5.499 seconds (process running for 6.304)
+2025-04-03T16:22:14.699+08:00  INFO 28432 --- [cursor-library] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-03T16:22:14.700+08:00  INFO 28432 --- [cursor-library] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-03T16:22:14.701+08:00  INFO 28432 --- [cursor-library] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-03T16:24:59.235+08:00  INFO 28432 --- [cursor-library] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-03T16:24:59.239+08:00  INFO 28432 --- [cursor-library] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-03T16:24:59.245+08:00  INFO 28432 --- [cursor-library] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03T16:24:59.246+08:00  INFO 28432 --- [cursor-library] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-03T16:24:59.254+08:00  INFO 28432 --- [cursor-library] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-03T16:29:25.292+08:00  INFO 4056 --- [cursor-library] [main] c.e.c.CursorLibraryApplication           : Starting CursorLibraryApplication using Java 21.0.3 with PID 4056 (C:\Users\p0310\IdeaProjects\cursor-library\target\classes started by p0310 in C:\Users\p0310\IdeaProjects\cursor-library)
+2025-04-03T16:29:25.295+08:00 DEBUG 4056 --- [cursor-library] [main] c.e.c.CursorLibraryApplication           : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-03T16:29:25.296+08:00  INFO 4056 --- [cursor-library] [main] c.e.c.CursorLibraryApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-04-03T16:29:25.833+08:00  INFO 4056 --- [cursor-library] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-03T16:29:25.877+08:00  INFO 4056 --- [cursor-library] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 3 JPA repository interfaces.
+2025-04-03T16:29:26.623+08:00  INFO 4056 --- [cursor-library] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-03T16:29:26.639+08:00  INFO 4056 --- [cursor-library] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-03T16:29:26.639+08:00  INFO 4056 --- [cursor-library] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-03T16:29:26.690+08:00  INFO 4056 --- [cursor-library] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-03T16:29:26.690+08:00  INFO 4056 --- [cursor-library] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1346 ms
+2025-04-03T16:29:26.845+08:00  INFO 4056 --- [cursor-library] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-03T16:29:26.927+08:00  INFO 4056 --- [cursor-library] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-03T16:29:26.964+08:00  INFO 4056 --- [cursor-library] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-03T16:29:27.220+08:00  INFO 4056 --- [cursor-library] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-03T16:29:27.251+08:00  INFO 4056 --- [cursor-library] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-03T16:29:27.381+08:00  INFO 4056 --- [cursor-library] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29699283
+2025-04-03T16:29:27.383+08:00  INFO 4056 --- [cursor-library] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-03T16:29:27.431+08:00  WARN 4056 --- [cursor-library] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-03T16:29:27.450+08:00  INFO 4056 --- [cursor-library] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-03T16:29:28.279+08:00  INFO 4056 --- [cursor-library] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-03T16:29:28.281+08:00  INFO 4056 --- [cursor-library] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03T16:29:28.581+08:00 DEBUG 4056 --- [cursor-library] [main] c.e.c.config.JwtRequestFilter            : Filter 'jwtRequestFilter' configured for use
+2025-04-03T16:29:28.625+08:00  INFO 4056 --- [cursor-library] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-04-03T16:29:28.816+08:00  WARN 4056 --- [cursor-library] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-03T16:29:29.715+08:00  INFO 4056 --- [cursor-library] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-03T16:29:29.723+08:00  INFO 4056 --- [cursor-library] [main] c.e.c.CursorLibraryApplication           : Started CursorLibraryApplication in 4.812 seconds (process running for 5.398)
+2025-04-03T16:29:53.974+08:00  INFO 4056 --- [cursor-library] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-03T16:29:53.975+08:00  INFO 4056 --- [cursor-library] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-03T16:29:53.977+08:00  INFO 4056 --- [cursor-library] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-04-03T16:42:37.907+08:00  INFO 4056 --- [cursor-library] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-03T16:42:37.915+08:00  INFO 4056 --- [cursor-library] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-03T16:42:37.922+08:00  INFO 4056 --- [cursor-library] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03T16:42:37.924+08:00  INFO 4056 --- [cursor-library] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-03T16:42:37.933+08:00  INFO 4056 --- [cursor-library] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-03T16:42:42.015+08:00  INFO 19636 --- [cursor-library] [main] c.e.c.CursorLibraryApplication           : Starting CursorLibraryApplication using Java 21.0.3 with PID 19636 (C:\Users\p0310\IdeaProjects\cursor-library\target\classes started by p0310 in C:\Users\p0310\IdeaProjects\cursor-library)
+2025-04-03T16:42:42.017+08:00 DEBUG 19636 --- [cursor-library] [main] c.e.c.CursorLibraryApplication           : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-03T16:42:42.017+08:00  INFO 19636 --- [cursor-library] [main] c.e.c.CursorLibraryApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-04-03T16:42:42.466+08:00  INFO 19636 --- [cursor-library] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-03T16:42:42.506+08:00  INFO 19636 --- [cursor-library] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 3 JPA repository interfaces.
+2025-04-03T16:42:43.187+08:00  INFO 19636 --- [cursor-library] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-03T16:42:43.199+08:00  INFO 19636 --- [cursor-library] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-03T16:42:43.200+08:00  INFO 19636 --- [cursor-library] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-03T16:42:43.246+08:00  INFO 19636 --- [cursor-library] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-03T16:42:43.247+08:00  INFO 19636 --- [cursor-library] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1192 ms
+2025-04-03T16:42:43.384+08:00  INFO 19636 --- [cursor-library] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-03T16:42:43.449+08:00  INFO 19636 --- [cursor-library] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-03T16:42:43.481+08:00  INFO 19636 --- [cursor-library] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-03T16:42:43.701+08:00  INFO 19636 --- [cursor-library] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-03T16:42:43.728+08:00  INFO 19636 --- [cursor-library] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-03T16:42:43.855+08:00  INFO 19636 --- [cursor-library] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76e00bdb
+2025-04-03T16:42:43.857+08:00  INFO 19636 --- [cursor-library] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-03T16:42:43.897+08:00  WARN 19636 --- [cursor-library] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-03T16:42:43.912+08:00  INFO 19636 --- [cursor-library] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-03T16:42:44.619+08:00  INFO 19636 --- [cursor-library] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-03T16:42:44.621+08:00  INFO 19636 --- [cursor-library] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03T16:42:44.903+08:00 DEBUG 19636 --- [cursor-library] [main] c.e.c.config.JwtRequestFilter            : Filter 'jwtRequestFilter' configured for use
+2025-04-03T16:42:44.942+08:00  INFO 19636 --- [cursor-library] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-04-03T16:42:45.128+08:00  WARN 19636 --- [cursor-library] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-03T16:42:46.002+08:00  INFO 19636 --- [cursor-library] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-03T16:42:46.008+08:00  INFO 19636 --- [cursor-library] [main] c.e.c.CursorLibraryApplication           : Started CursorLibraryApplication in 4.345 seconds (process running for 4.909)
+2025-04-03T16:43:10.079+08:00  INFO 19636 --- [cursor-library] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-03T16:43:10.080+08:00  INFO 19636 --- [cursor-library] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-03T16:43:10.082+08:00  INFO 19636 --- [cursor-library] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-04-03T16:43:19.706+08:00  WARN 19636 --- [cursor-library] [http-nio-8080-exec-3] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-04-03T16:45:15.769+08:00  WARN 19636 --- [cursor-library] [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1364, SQLState: HY000
+2025-04-03T16:45:15.769+08:00 ERROR 19636 --- [cursor-library] [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : Field 'due_date' doesn't have a default value
+2025-04-03T16:45:26.185+08:00  WARN 19636 --- [cursor-library] [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1451, SQLState: 23000
+2025-04-03T16:45:26.185+08:00 ERROR 19636 --- [cursor-library] [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : Cannot delete or update a parent row: a foreign key constraint fails (`library`.`borrow_records`, CONSTRAINT `borrow_records_ibfk_1` FOREIGN KEY (`book_id`) REFERENCES `books` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+2025-04-03T16:48:43.455+08:00  INFO 19636 --- [cursor-library] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-03T16:48:43.462+08:00  INFO 19636 --- [cursor-library] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-03T16:48:43.466+08:00  INFO 19636 --- [cursor-library] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03T16:48:43.468+08:00  INFO 19636 --- [cursor-library] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-03T16:48:43.475+08:00  INFO 19636 --- [cursor-library] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-03T16:48:47.265+08:00  INFO 5204 --- [cursor-library] [main] c.e.c.CursorLibraryApplication           : Starting CursorLibraryApplication using Java 21.0.3 with PID 5204 (C:\Users\p0310\IdeaProjects\cursor-library\target\classes started by p0310 in C:\Users\p0310\IdeaProjects\cursor-library)
+2025-04-03T16:48:47.266+08:00 DEBUG 5204 --- [cursor-library] [main] c.e.c.CursorLibraryApplication           : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-03T16:48:47.267+08:00  INFO 5204 --- [cursor-library] [main] c.e.c.CursorLibraryApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-04-03T16:48:47.736+08:00  INFO 5204 --- [cursor-library] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-03T16:48:47.773+08:00  INFO 5204 --- [cursor-library] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 3 JPA repository interfaces.
+2025-04-03T16:48:48.409+08:00  INFO 5204 --- [cursor-library] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-03T16:48:48.420+08:00  INFO 5204 --- [cursor-library] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-03T16:48:48.420+08:00  INFO 5204 --- [cursor-library] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-03T16:48:48.465+08:00  INFO 5204 --- [cursor-library] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-03T16:48:48.465+08:00  INFO 5204 --- [cursor-library] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1160 ms
+2025-04-03T16:48:48.592+08:00  INFO 5204 --- [cursor-library] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-03T16:48:48.649+08:00  INFO 5204 --- [cursor-library] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-03T16:48:48.680+08:00  INFO 5204 --- [cursor-library] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-03T16:48:48.885+08:00  INFO 5204 --- [cursor-library] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-03T16:48:48.909+08:00  INFO 5204 --- [cursor-library] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-03T16:48:49.025+08:00  INFO 5204 --- [cursor-library] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58ec8271
+2025-04-03T16:48:49.026+08:00  INFO 5204 --- [cursor-library] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-03T16:48:49.066+08:00  WARN 5204 --- [cursor-library] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-03T16:48:49.079+08:00  INFO 5204 --- [cursor-library] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-03T16:48:49.747+08:00  INFO 5204 --- [cursor-library] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-03T16:48:49.750+08:00  INFO 5204 --- [cursor-library] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03T16:48:50.031+08:00 DEBUG 5204 --- [cursor-library] [main] c.e.c.config.JwtRequestFilter            : Filter 'jwtRequestFilter' configured for use
+2025-04-03T16:48:50.070+08:00  INFO 5204 --- [cursor-library] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-04-03T16:48:50.146+08:00  INFO 5204 --- [cursor-library] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-03T16:48:50.639+08:00  WARN 5204 --- [cursor-library] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-03T16:48:51.492+08:00  INFO 5204 --- [cursor-library] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-03T16:48:51.499+08:00  INFO 5204 --- [cursor-library] [main] c.e.c.CursorLibraryApplication           : Started CursorLibraryApplication in 4.574 seconds (process running for 5.111)
+2025-04-03T16:48:57.911+08:00  INFO 5204 --- [cursor-library] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-03T16:48:57.911+08:00  INFO 5204 --- [cursor-library] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-03T16:48:57.913+08:00  INFO 5204 --- [cursor-library] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-04-03T16:48:58.234+08:00  WARN 5204 --- [cursor-library] [http-nio-8080-exec-1] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-04-03T16:49:47.913+08:00  WARN 5204 --- [cursor-library] [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1364, SQLState: HY000
+2025-04-03T16:49:47.913+08:00 ERROR 5204 --- [cursor-library] [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : Field 'due_date' doesn't have a default value
+2025-04-03T16:50:26.786+08:00  WARN 5204 --- [cursor-library] [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1451, SQLState: 23000
+2025-04-03T16:50:26.786+08:00 ERROR 5204 --- [cursor-library] [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : Cannot delete or update a parent row: a foreign key constraint fails (`library`.`borrow_records`, CONSTRAINT `borrow_records_ibfk_1` FOREIGN KEY (`book_id`) REFERENCES `books` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+2025-04-03T16:52:56.401+08:00  INFO 5204 --- [cursor-library] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-03T16:52:56.403+08:00  INFO 5204 --- [cursor-library] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-03T16:52:56.411+08:00  INFO 5204 --- [cursor-library] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03T16:52:56.416+08:00  INFO 5204 --- [cursor-library] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-03T16:52:56.421+08:00  INFO 5204 --- [cursor-library] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-03T16:53:02.045+08:00  INFO 20420 --- [cursor-library] [main] c.e.c.CursorLibraryApplication           : Starting CursorLibraryApplication using Java 21.0.3 with PID 20420 (C:\Users\p0310\IdeaProjects\cursor-library\target\classes started by p0310 in C:\Users\p0310\IdeaProjects\cursor-library)
+2025-04-03T16:53:02.046+08:00 DEBUG 20420 --- [cursor-library] [main] c.e.c.CursorLibraryApplication           : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-03T16:53:02.047+08:00  INFO 20420 --- [cursor-library] [main] c.e.c.CursorLibraryApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-04-03T16:53:02.500+08:00  INFO 20420 --- [cursor-library] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-03T16:53:02.538+08:00  INFO 20420 --- [cursor-library] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 3 JPA repository interfaces.
+2025-04-03T16:53:03.192+08:00  INFO 20420 --- [cursor-library] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-03T16:53:03.204+08:00  INFO 20420 --- [cursor-library] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-03T16:53:03.205+08:00  INFO 20420 --- [cursor-library] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-03T16:53:03.248+08:00  INFO 20420 --- [cursor-library] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-03T16:53:03.248+08:00  INFO 20420 --- [cursor-library] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1164 ms
+2025-04-03T16:53:03.381+08:00  INFO 20420 --- [cursor-library] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-03T16:53:03.451+08:00  INFO 20420 --- [cursor-library] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-03T16:53:03.480+08:00  INFO 20420 --- [cursor-library] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-03T16:53:03.689+08:00  INFO 20420 --- [cursor-library] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-03T16:53:03.714+08:00  INFO 20420 --- [cursor-library] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-03T16:53:03.828+08:00  INFO 20420 --- [cursor-library] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f676900
+2025-04-03T16:53:03.830+08:00  INFO 20420 --- [cursor-library] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-03T16:53:03.874+08:00  WARN 20420 --- [cursor-library] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-03T16:53:03.887+08:00  INFO 20420 --- [cursor-library] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-03T16:53:04.585+08:00  INFO 20420 --- [cursor-library] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-03T16:53:04.588+08:00  INFO 20420 --- [cursor-library] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03T16:53:04.866+08:00 DEBUG 20420 --- [cursor-library] [main] c.e.c.config.JwtRequestFilter            : Filter 'jwtRequestFilter' configured for use
+2025-04-03T16:53:04.903+08:00  INFO 20420 --- [cursor-library] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-04-03T16:53:04.964+08:00  INFO 20420 --- [cursor-library] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-03T16:53:05.450+08:00  WARN 20420 --- [cursor-library] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-03T16:53:06.299+08:00  INFO 20420 --- [cursor-library] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-03T16:53:06.306+08:00  INFO 20420 --- [cursor-library] [main] c.e.c.CursorLibraryApplication           : Started CursorLibraryApplication in 4.598 seconds (process running for 5.095)
+2025-04-03T16:53:20.053+08:00  INFO 20420 --- [cursor-library] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-03T16:53:20.054+08:00  INFO 20420 --- [cursor-library] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-03T16:53:20.055+08:00  INFO 20420 --- [cursor-library] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-03T16:53:20.355+08:00  WARN 20420 --- [cursor-library] [http-nio-8080-exec-1] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-04-03T17:07:04.257+08:00  WARN 20420 --- [cursor-library] [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1451, SQLState: 23000
+2025-04-03T17:07:04.258+08:00 ERROR 20420 --- [cursor-library] [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : Cannot delete or update a parent row: a foreign key constraint fails (`library`.`borrow_records`, CONSTRAINT `borrow_records_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+2025-04-03T17:07:57.467+08:00  WARN 20420 --- [cursor-library] [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1451, SQLState: 23000
+2025-04-03T17:07:57.467+08:00 ERROR 20420 --- [cursor-library] [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : Cannot delete or update a parent row: a foreign key constraint fails (`library`.`borrow_records`, CONSTRAINT `borrow_records_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+2025-04-03T17:08:03.171+08:00  WARN 20420 --- [cursor-library] [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1451, SQLState: 23000
+2025-04-03T17:08:03.172+08:00 ERROR 20420 --- [cursor-library] [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : Cannot delete or update a parent row: a foreign key constraint fails (`library`.`borrow_records`, CONSTRAINT `borrow_records_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+2025-04-03T17:11:03.072+08:00  WARN 20420 --- [cursor-library] [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1451, SQLState: 23000
+2025-04-03T17:11:03.072+08:00 ERROR 20420 --- [cursor-library] [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : Cannot delete or update a parent row: a foreign key constraint fails (`library`.`borrow_records`, CONSTRAINT `borrow_records_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+2025-04-03T17:20:19.428+08:00  WARN 20420 --- [cursor-library] [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1451, SQLState: 23000
+2025-04-03T17:20:19.429+08:00 ERROR 20420 --- [cursor-library] [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : Cannot delete or update a parent row: a foreign key constraint fails (`library`.`borrow_records`, CONSTRAINT `borrow_records_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+2025-04-03T17:47:20.808+08:00  WARN 20420 --- [cursor-library] [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1451, SQLState: 23000
+2025-04-03T17:47:20.809+08:00 ERROR 20420 --- [cursor-library] [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : Cannot delete or update a parent row: a foreign key constraint fails (`library`.`borrow_records`, CONSTRAINT `borrow_records_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+2025-04-03T17:53:05.559+08:00  WARN 20420 --- [cursor-library] [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1451, SQLState: 23000
+2025-04-03T17:53:05.559+08:00 ERROR 20420 --- [cursor-library] [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : Cannot delete or update a parent row: a foreign key constraint fails (`library`.`borrow_records`, CONSTRAINT `borrow_records_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+2025-04-03T18:52:58.931+08:00  INFO 20420 --- [cursor-library] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-03T18:52:58.938+08:00  INFO 20420 --- [cursor-library] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-03T18:52:58.946+08:00  INFO 20420 --- [cursor-library] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03T18:52:58.950+08:00  INFO 20420 --- [cursor-library] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-03T18:52:58.953+08:00  INFO 20420 --- [cursor-library] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-03T18:56:25.506+08:00  INFO 22112 --- [cursor-library] [main] c.e.c.CursorLibraryApplication           : Starting CursorLibraryApplication using Java 21.0.3 with PID 22112 (C:\Users\p0310\IdeaProjects\cursor-library\target\classes started by p0310 in C:\Users\p0310\IdeaProjects\cursor-library)
+2025-04-03T18:56:25.507+08:00 DEBUG 22112 --- [cursor-library] [main] c.e.c.CursorLibraryApplication           : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-03T18:56:25.508+08:00  INFO 22112 --- [cursor-library] [main] c.e.c.CursorLibraryApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-04-03T18:56:26.016+08:00  INFO 22112 --- [cursor-library] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-03T18:56:26.059+08:00  INFO 22112 --- [cursor-library] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 3 JPA repository interfaces.
+2025-04-03T18:56:26.760+08:00  INFO 22112 --- [cursor-library] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-03T18:56:26.775+08:00  INFO 22112 --- [cursor-library] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-03T18:56:26.775+08:00  INFO 22112 --- [cursor-library] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-03T18:56:26.834+08:00  INFO 22112 --- [cursor-library] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-03T18:56:26.834+08:00  INFO 22112 --- [cursor-library] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1286 ms
+2025-04-03T18:56:26.958+08:00  INFO 22112 --- [cursor-library] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-03T18:56:27.042+08:00  INFO 22112 --- [cursor-library] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-03T18:56:27.084+08:00  INFO 22112 --- [cursor-library] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-03T18:56:27.347+08:00  INFO 22112 --- [cursor-library] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-03T18:56:27.380+08:00  INFO 22112 --- [cursor-library] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-03T18:56:27.538+08:00  INFO 22112 --- [cursor-library] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e5364a3
+2025-04-03T18:56:27.540+08:00  INFO 22112 --- [cursor-library] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-03T18:56:27.593+08:00  WARN 22112 --- [cursor-library] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-03T18:56:27.610+08:00  INFO 22112 --- [cursor-library] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-03T18:56:28.482+08:00  INFO 22112 --- [cursor-library] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-03T18:56:28.485+08:00  INFO 22112 --- [cursor-library] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03T18:56:28.782+08:00 DEBUG 22112 --- [cursor-library] [main] c.e.c.config.JwtRequestFilter            : Filter 'jwtRequestFilter' configured for use
+2025-04-03T18:56:28.825+08:00  INFO 22112 --- [cursor-library] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-04-03T18:56:28.856+08:00  INFO 22112 --- [cursor-library] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-03T18:56:29.781+08:00  WARN 22112 --- [cursor-library] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-03T18:56:30.365+08:00  INFO 22112 --- [cursor-library] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-03T18:56:30.372+08:00  INFO 22112 --- [cursor-library] [main] c.e.c.CursorLibraryApplication           : Started CursorLibraryApplication in 5.234 seconds (process running for 5.83)
+2025-04-03T18:56:51.689+08:00  INFO 22112 --- [cursor-library] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-03T18:56:51.689+08:00  INFO 22112 --- [cursor-library] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-03T18:56:51.691+08:00  INFO 22112 --- [cursor-library] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-04-03T18:56:52.681+08:00  WARN 22112 --- [cursor-library] [http-nio-8080-exec-10] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-04-03T18:59:25.462+08:00  INFO 22112 --- [cursor-library] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-03T18:59:25.471+08:00  INFO 22112 --- [cursor-library] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-03T18:59:25.478+08:00  INFO 22112 --- [cursor-library] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03T18:59:25.481+08:00  INFO 22112 --- [cursor-library] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-03T18:59:25.489+08:00  INFO 22112 --- [cursor-library] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
